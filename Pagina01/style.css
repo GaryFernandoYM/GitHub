@@ -1,0 +1,406 @@
+.logo{
+    position: relative;
+    width: 75px;
+    left: 10px;
+    top: 0px;
+    height: 63px;
+    background-color: blue;
+    
+    
+}
+.referencias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    
+    
+    
+}
+.cambio{
+    text-decoration: none; 
+    color: black;
+}
+#tutorials{
+    padding: 20px;
+    
+    padding-left: 24px;
+    padding-right: 16px;
+    align-self: center;
+    background-color: white;
+    font-size: 18px;   
+}
+#tutorials:hover{
+    
+    background-color:limegreen;
+    text-decoration: none;
+  }
+.cambio2{
+    text-decoration: none; 
+    color: black;
+}
+#references{
+    padding: 20px;
+    
+    padding-left: 24px;
+    padding-right: 16px;
+    align-self: center;
+    font-size: 20px;
+    
+    background-color: white;
+    font-size: 18px;   
+}
+#references:hover{
+    
+    background-color:limegreen;
+    text-decoration: none;
+  }
+.cambio3{
+    text-decoration: none; 
+    color: black;
+}
+#exercises{
+    padding: 20px;
+    
+    padding-left: 24px;
+    padding-right: 16px;
+    align-self: center;
+    font-size: 20px;
+    
+    background-color: white;
+    font-size: 18px;   
+}
+#exercises:hover{
+    
+    background-color:limegreen;
+    text-decoration: none;
+  }
+.cambio4{
+    text-decoration: none; 
+    color: black;
+    background-color: green;
+    border-radius: 30px;
+    padding: 8px 16px;
+    vertical-align: middle;
+}
+#login{
+    padding: 20px;
+    position: absolute;
+    padding-left: 24px;
+    padding-right: 16px;
+    align-self: center;
+    font-size: 20px;
+    justify-content:flex-end;
+    background-color: white;
+    font-size: 18px; 
+    right: 300px;  
+}
+.abajo{
+    background-color:dimgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:left;
+    
+}
+
+
+
+#html{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+    font-size: 18px; 
+    
+ }
+ .html{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 10px 15px 9px 15px !important;
+    vertical-align: middle;
+ }
+ #html:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+#css{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+ 
+ }
+ .css{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #css:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#javascript{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+  
+    
+ }
+ .javascript{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #javascript:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#sql{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+   
+    
+ }
+ .sql{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #sql:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#python{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+   
+    
+ }
+ .python{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #python:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#java{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+ 
+    
+ }
+ .java{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #java:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#php{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+   
+ }
+ .php{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #php:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#bootstrap{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+
+ }
+ .bootstrap{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #bootstrap:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#howto{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+  
+ }
+ .howto{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #howto:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#w3scc{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+
+ }
+ .w3scc{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #w3scc:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#c{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+ 
+    
+ }
+ .c{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #c:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+#cxx{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+    
+ }
+ .cxxl{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #cxx:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+#mas{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+   
+    
+ }
+ .mas{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #cz:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+#react{
+    padding: 10px 15px 9px 15px !important;
+    align-self: center;
+    font-size: 17px;
+    justify-content:flex-end;
+    
+    
+    
+ }
+ .react{
+    text-decoration: none; 
+    color: white;
+    
+    padding: 8px 16px;
+    vertical-align: middle;
+ }
+ #react:hover{
+    
+    background-color:black;
+    text-decoration: none;
+}
+
+

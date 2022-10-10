@@ -1,0 +1,38 @@
+body{
+    background-color: brown;
+}
+
+.resultados{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.tarjeta{
+    background-color: white;
+    border-radius: 7px;
+    color: black;
+    padding: 30px;
+    width: 400px;
+}
+.texto h3{
+    color: blue;
+}
+.texto{
+    text-align: center;
+
+}
+.icono{
+    
+    margin-top: 7px;
+    
+}
+.circulo{
+    width: 15px;
+    background-color: gold;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 0 auto;
+   
+   
+}

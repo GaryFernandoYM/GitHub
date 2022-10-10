@@ -1,0 +1,166 @@
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   color: white;
+}
+
+header{
+    height: 100px;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+header h2{
+    margin: 0;
+    padding-top: 35px;
+}
+
+nav{
+    background-color: lightblue;
+    height: 50px;
+    border-radius: 30px 0 30px 0;
+}
+
+nav h2{
+    margin: 0;
+    text-align: center;
+    padding-top: 10px;
+}
+aside{
+    background-color: darkgray;
+}
+section{
+    background-color: gainsboro;
+    color: black;
+    padding: 5px;
+}
+#padre{
+    display: flex;
+}
+#menu1{
+    flex: 1;
+}
+#menu2{
+    flex: 1;
+}
+#cuerpo{
+    flex: 3;
+}
+
+table,td{
+    border: 2px solid blue;
+    border-collapse: collapse;
+    padding: 5px;
+    color: black;
+}
+
+tr:nth-child(even){
+    background-color: lightblue;
+}
+tr:nth-child(odd){
+    background-color:ghostwhite;
+}
+tr:hover{
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: chartreuse;
+}
+table{
+    margin-bottom: 15px;
+}
+.boton{
+    background-color: gold;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    box-shadow: 0px 0px 3px #838080;
+}
+.boton:hover{
+    background-color: darkgray;
+    color: white;
+}
+
+.logo{
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+}
+.resultados{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+.tarjeta{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #838080;
+    padding: 10px;
+    display: flex;
+    margin: 5px;
+    width: 150px;
+}
+.icono{
+    margin-top: 7px;
+}
+.texto{
+    margin-left: 10px;
+}
+.circulo{
+    background-color: gainsboro;
+    border-radius: 50%;
+    padding: 12px;
+}
+.texto h2{
+    color: gold;
+    margin: 0;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+.texto p{
+    margin: 0;
+    font-size: 0.8em;
+    color: darkgrey;
+}
+
+nav ul{
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    background-color: cadetblue;    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li:hover{
+    background-color: azure;
+    color: blue;
+}
+.servicios{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tarjeta2{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px #838080;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    text-align: center;
+}
+.circulo2{
+    width: 40px;
+    background-color: gold;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 0 auto;
+}
